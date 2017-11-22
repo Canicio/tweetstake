@@ -14,8 +14,7 @@ To pending ...
 ```
 
 ## Installation (Linux and Mac OSX)
-*NOTE: it is recommended to run the application without installing. Look above.*  
-Requirements: 3.6.1+ installed and available MongoDB database
+*NOTE: it is recommended to run the application without installing. Look above.*
 
 ### Requirements
 * Python 3.6.1+
