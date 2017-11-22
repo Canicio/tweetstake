@@ -14,12 +14,21 @@ To pending ...
 ```
 
 ## Installation (Linux and Mac OSX)
-*NOTE: we recommend running the application without installing. Look above.*  
-Requirements: 3.6.1+ installed and mongodb database
+*NOTE: it is recommended to run the application without installing. Look above.*  
+Requirements: 3.6.1+ installed and available MongoDB database
+
+### Requirements
+* Python 3.6.1+
+* python3.6-dev
+* python3-setuptools
+* python3-pip
+* MongoDB database (local or remote)
+
+### Installation steps
 ```sh
 clone or download and unzip this project
 $ cd tweetstake
-$ python setup.py install
+$ sudo python3.6 setup.py install
 $ tweetstake -h       # -h show help
 ```
 
