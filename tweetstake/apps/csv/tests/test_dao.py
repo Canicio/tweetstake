@@ -2,9 +2,7 @@ import unittest
 from typing import Any, List
 from unittest import mock
 from unittest.mock import Mock
-
 from io import TextIOWrapper, BufferedIOBase
-
 from tweetstake.apps.csv.dao import CsvDAO
 
 

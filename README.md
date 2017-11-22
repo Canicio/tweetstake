@@ -9,14 +9,14 @@ Application to get tweets of Twitter on specific topics. Specially designed for 
 
 ## Execution without installation (docker)
 Requirements: Docker Engine installed (https://docs.docker.com/engine/installation)
-```console
+```sh
 To pending ...
 ```
 
 ## Installation (Linux and Mac OSX)
 *NOTE: we recommend running the application without installing. Look above.*  
 Requirements: 3.6.1+ installed and mongodb database
-```console
+```sh
 clone or download and unzip this project
 $ cd tweetstake
 $ python setup.py install
@@ -28,7 +28,7 @@ You must go to [https://apps.twitter.com/](https://apps.twitter.com/), create an
 Then, you must create a **.csv file** and write the tokens in the following format. The first line must be the same. The rest of the lines represent an account with their respective tokens. Each token must be separated by a comma.
 
 *example_file.scv*
-```console
+```sh
 consumer_key,consumer_secret,token_key,token_secret
 uGvo8uIN2wg5nKvWfmBuSjmTv,bx4yTUiav6dJvqkWo8VvxSORyrRHApUMPldrZrHcAmTg6AXl6X,150147078634094680-WItRgONsdhhZc6C7q8n9NWDvYG94aVB,qQ7qj6dbfhbqc69EPSVFzMvPpjy1Rl91RdiJ6WzzKUIas
 ```
@@ -43,7 +43,6 @@ You must have a **mongodb** database available. By default the name of the datab
 ```console
  python -m tweetstake -accounts_file ~/file2.csv -filter '#hello' -hours 6
 ```
-
 
 **Collect tweets with '#hello' for 15 minutes, specifying parameters of the mongodb database:**
 ```console

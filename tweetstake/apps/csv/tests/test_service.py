@@ -2,7 +2,6 @@ import unittest
 from typing import List
 from unittest import mock
 from unittest.mock import Mock, mock_open
-
 from tweetstake.apps.csv.service import CsvService
 
 
