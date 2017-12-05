@@ -54,7 +54,7 @@ You must have a **mongodb** database available. By default the name of the datab
 
 **Collect tweets with '#hello' for 15 minutes, specifying parameters of the mongodb database:**
 ```console
- tweetstake -accounts_file ~/file2.csv -filter '#hello' -minutes 15 -db_name 'mydbname' -db_host 'mongodb://db1.example.net:27017'
+ tweetstake -accounts_file ~/file2.csv -filter '#hello' -minutes 15 -db_name 'mydbname' -db_host 'db1.example.net:27017'
 ```
 
 **Collect tweets with '#hello' or '#bye' for 6 hours and 30 minutes:**
