@@ -1,0 +1,7 @@
+[run]
+omit=
+    venv/*
+    tweetstake/__main__.py
+    tweetstake/apps/common/*
+    tweetstake/apps/*/tests/*
+
