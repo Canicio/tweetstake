@@ -7,8 +7,6 @@ MAINTAINER Carlos Canicio Almendros<canicio7@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN lsb_release -a
-
 # Update system
 RUN apt-get -qq update --fix-missing
 
@@ -20,7 +18,6 @@ RUN apt-get install -y python3.6-dev python3-setuptools python3-pip
 
 # Copy project to container folder
 COPY . /usr/src/app
-RUN ls -l
 
 # Install app
 RUN python setup.py install
