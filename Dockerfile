@@ -14,14 +14,14 @@ RUN apt-get -qq update --fix-missing
 WORKDIR /usr/src/app
 
 # Install required packages
-RUN apt-get install -y python3.6-dev python3-setuptools python3-pip
+RUN apt-get install -y python3-dev python3-setuptools python3-pip
 
 # Show python version
-RUN /usr/src/venv/bin/python --version
+RUN python --version
 
 # Copy files from files_to_container to container folder
 COPY . /usr/src/app
-RUN ls -l
+RUN chmod 777 -R .
 
 # Install app
 RUN python setup.py install
