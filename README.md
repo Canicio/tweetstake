@@ -8,7 +8,7 @@ Application to get tweets of Twitter on specific topics. Specially designed for 
 
 ## Execution without installation (recommended)
 Requirements: Docker Engine installed (https://docs.docker.com/engine/installation). <br>
-Below is an example of running the application with Docker (*Examples* section)
+Below there is an example of running the application with Docker (*Examples* section)
 
 ## Installation (Linux and Mac OSX)
 *NOTE: it is recommended to run the application without installing. Look above.*
