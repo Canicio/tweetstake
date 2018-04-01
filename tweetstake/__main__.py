@@ -76,6 +76,7 @@ class App(object):
             if args.db_name:
                 db_parameters.database_name = args.db_name[0]
             if args.db_host:
+                print(args.db_host)
                 db_parameters.database_host = args.db_host[0]
             DataBaseUtil().connect(db_parameters)
 
