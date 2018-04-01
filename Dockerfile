@@ -1,10 +1,6 @@
 FROM python:3.6.3
 MAINTAINER Carlos Canicio Almendros<canicio7@gmail.com>
 
-# NOTE:
-# /usr/src/venv <- project environment
-# /usr/src/app <- project code
-
 ENV DEBIAN_FRONTEND noninteractive
 
 # Update system

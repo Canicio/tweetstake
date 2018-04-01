@@ -49,9 +49,9 @@ class App(object):
             parser.add_argument(Constants.COMMAND_LIVE_MINUTES, metavar=Constants.ARG_LIVE_MINUTES_COMMAND, nargs=1,
                                 type=int, help=Constants.MSG_HELP_LIVE_MINUTES_COMMAND)
             parser.add_argument(Constants.COMMAND_DATABASE_NAME, metavar=Constants.ARG_DATABASE_NAME_COMMAND, nargs=1,
-                                type=int, help=Constants.MSG_HELP_DATABASE_NAME_COMMAND)
+                                type=str, help=Constants.MSG_HELP_DATABASE_NAME_COMMAND)
             parser.add_argument(Constants.COMMAND_DATABASE_HOST, metavar=Constants.ARG_DATABASE_HOST_COMMAND, nargs=1,
-                                type=int, help=Constants.MSG_HELP_DATABASE_HOST_COMMAND)
+                                type=str, help=Constants.MSG_HELP_DATABASE_HOST_COMMAND)
             args = parser.parse_args()
 
             # Check input arguments
