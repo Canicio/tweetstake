@@ -28,7 +28,7 @@ setup(name='Tweetstake',
             'six == 1.10.0',
             'tweepy == 3.5.0',
             'tzlocal == 1.4',
-            'urllib3 == 1.22',
+            'urllib3 == 1.24.2',
       ],
       entry_points={
             'console_scripts': [
