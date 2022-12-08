@@ -14,7 +14,7 @@ setup(name='Tweetstake',
       packages=['tweetstake', 'tweetstake.apps', 'tweetstake.apps.twitter', 'tweetstake.apps.csv', 'tweetstake.apps.common'],
       install_requires=[
             'APScheduler == 3.4.0',
-            'certifi == 2017.7.27.1',
+            'certifi == 2022.12.7',
             'chardet == 3.0.4',
             'coloredlogs == 7.3',
             'humanfriendly == 4.4.1',
